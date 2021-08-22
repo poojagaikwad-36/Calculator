@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: test.cucumber.RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.2 s <<< FAILURE! - in test.cucumber.RunCukesTest
+initializationError(test.cucumber.RunCukesTest)  Time elapsed: 0.012 s  <<< ERROR!
+java.nio.file.FileSystemNotFoundException: Provider "html" not installed
+

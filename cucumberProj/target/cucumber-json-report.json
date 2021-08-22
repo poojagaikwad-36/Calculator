@@ -1,0 +1,336 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-22T19:43:28.389Z",
+        "line": 3,
+        "name": "Automate calculator",
+        "description": "",
+        "id": "automate-online-calculator;automate-calculator",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9612082100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "chrome browser is open",
+            "match": {
+              "location": "test.cucumber.calc.CalculatorStepDefs.chrome_browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4105314700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on google search page",
+            "match": {
+              "location": "test.cucumber.calc.CalculatorStepDefs.user_is_on_google_search_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1373738400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters url in search box",
+            "match": {
+              "location": "test.cucumber.calc.CalculatorStepDefs.user_enters_url_in_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2593787100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "hits enter",
+            "match": {
+              "location": "test.cucumber.calc.CalculatorStepDefs.hits_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2385956900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is navigated to online calculator site",
+            "match": {
+              "location": "test.cucumber.calc.CalculatorStepDefs.user_is_navigated_to_online_calculator_site()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-22T19:43:48.611Z",
+        "line": 12,
+        "name": "calculate add",
+        "description": "",
+        "id": "automate-online-calculator;calculate-add",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2993400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I have a calculator with add -234234 345345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "-234234",
+                  "offset": 29
+                },
+                {
+                  "val": "345345",
+                  "offset": 37
+                }
+              ],
+              "location": "test.cucumber.calc.CalculatorStepDefs.i_have_a_calc_with_add(int,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1994700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I ask it to say add",
+            "match": {
+              "location": "test.cucumber.calc.CalculatorStepDefs.I_ask_it_to_say_add()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14707300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "it should answer with add 111111",
+            "match": {
+              "arguments": [
+                {
+                  "val": "111111",
+                  "offset": 26
+                }
+              ],
+              "location": "test.cucumber.calc.CalculatorStepDefs.it_should_answer_with_add(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-22T19:43:48.651Z",
+        "line": 17,
+        "name": "calculate subtract",
+        "description": "",
+        "id": "automate-online-calculator;calculate-subtract",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1989600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I have a calculator with subtract 234823 -23094823",
+            "match": {
+              "arguments": [
+                {
+                  "val": "234823",
+                  "offset": 34
+                },
+                {
+                  "val": "-23094823",
+                  "offset": 41
+                }
+              ],
+              "location": "test.cucumber.calc.CalculatorStepDefs.i_have_a_calc_with_subtract(int,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2008600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I ask it to say subtract",
+            "match": {
+              "location": "test.cucumber.calc.CalculatorStepDefs.I_ask_it_to_say_subtract()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2041400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "it should answer with sub 23329646",
+            "match": {
+              "arguments": [
+                {
+                  "val": "23329646",
+                  "offset": 26
+                }
+              ],
+              "location": "test.cucumber.calc.CalculatorStepDefs.it_should_answer_with_sub(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-22T19:43:48.683Z",
+        "line": 22,
+        "name": "calculate multiply",
+        "description": "",
+        "id": "automate-online-calculator;calculate-multiply",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3982000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I have a calculator with multiply 423 525",
+            "match": {
+              "arguments": [
+                {
+                  "val": "423",
+                  "offset": 34
+                },
+                {
+                  "val": "525",
+                  "offset": 38
+                }
+              ],
+              "location": "test.cucumber.calc.CalculatorStepDefs.i_have_a_calc_with_multiply(int,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1992800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I ask it to say multiply",
+            "match": {
+              "location": "test.cucumber.calc.CalculatorStepDefs.I_ask_it_to_say_multiply()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1995700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "it should answer with mul 222075",
+            "match": {
+              "arguments": [
+                {
+                  "val": "222075",
+                  "offset": 26
+                }
+              ],
+              "location": "test.cucumber.calc.CalculatorStepDefs.it_should_answer_with_mul(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-22T19:43:48.712Z",
+        "line": 27,
+        "name": "calculate divide",
+        "description": "",
+        "id": "automate-online-calculator;calculate-divide",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3095500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I have a calculator with divide 4000 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4000",
+                  "offset": 32
+                },
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "test.cucumber.calc.CalculatorStepDefs.i_have_a_calc_with_divide(int,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1994100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I ask it to say divide",
+            "match": {
+              "location": "test.cucumber.calc.CalculatorStepDefs.I_ask_it_to_say_divide()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1993200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "it should answer with div 20",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 26
+                }
+              ],
+              "location": "test.cucumber.calc.CalculatorStepDefs.it_should_answer_with_div(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Automate online Calculator",
+    "description": "",
+    "id": "automate-online-calculator",
+    "keyword": "Feature",
+    "uri": "classpath:test/cucumber/calc/calc.feature",
+    "tags": []
+  }
+]
